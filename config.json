@@ -1,0 +1,31 @@
+{
+    "qlikSession": {
+    "url" : "wss://trey.bardesscloud.com:4747/app/",
+    "certPath" : "../../certs/",
+    "traceSocket" : false
+    },
+
+    "test": {
+        "appId": "9e4dc3c9-64b4-434c-9e2f-f508f43f232b",
+        "objectId": "mPDPSHD",
+        "commonHeader":  { 
+                "appId": "9e4dc3c9-64b4-434c-9e2f-f508f43f232b",
+                "userId": "UserDirectory=QSDEV; UserId=bardessgroup",
+                "cardinality": null 
+            }
+    },
+
+    "sendEmail" : {
+        "host": "smtp.google.com",
+        "port": 465, 
+        "secure": true,
+        "auth": {
+            "user": "username",
+            "pass": "pass"
+          },
+        "tls": {
+            "rejectUnauthorized": false
+          }
+    }
+}
+
